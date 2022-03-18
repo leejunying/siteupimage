@@ -4,7 +4,7 @@ const bodyaprser=require('body-parser')
 const app =express()
 const Controller=require('./controller')
  var corsOptions = {
-    origin: "http://localhost:3000", // Chang front end domain
+    origin: "https://vigorous-lichterman-fb8270.netlify.app", // Chang front end domain
     optionsSuccessStatus: 200, 
     credentials: true,
 };
@@ -21,7 +21,7 @@ const Controller=require('./controller')
 
   let add =  await Controller.addImage(req.body['image'])
 
-  console.timeLog(req.body)
+ 
 
 
 })
@@ -37,7 +37,7 @@ app.get('/',async(req,res)=>{
 
  
 
-app.listen(4000,()=>{
+app.listen(process.env.PORT ||4000,()=>{
 
 
     console.log('server is online on port 4000')
