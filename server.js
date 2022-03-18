@@ -12,6 +12,8 @@ const Controller=require('./controller')
  app.use(cors(corsOptions))
  app.use(bodyaprser.json())
 
+ 
+ 
 
  app.post('/upload', async (req, res) =>{
    
@@ -24,7 +26,7 @@ const Controller=require('./controller')
 
 })
 
-app.get('/load',async(req,res)=>{
+app.get('/',async(req,res)=>{
 
   let get = await Controller.getImages()
 
