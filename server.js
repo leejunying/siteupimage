@@ -21,7 +21,7 @@ const Controller=require('./controller')
 
   let add =  await Controller.addImage(req.body['image'])
 
- 
+  console.timeLog(req.body)
 
 
 })
@@ -37,7 +37,7 @@ app.get('/',async(req,res)=>{
 
  
 
-app.listen(process.env.PORT || 4000,()=>{
+app.listen(4000,()=>{
 
 
     console.log('server is online on port 4000')

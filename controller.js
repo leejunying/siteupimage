@@ -33,7 +33,9 @@ const addImage = async (data) => {
       "./storage.json",
       JSON.stringify(newlist),
    
-    );
+    );  
+      
+    console.log(data)
 
     console.log('Image upload successfully')
 
