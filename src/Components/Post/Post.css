@@ -1,0 +1,12 @@
+.Post {
+  position: relative;
+  height: auto;
+  display: flex;
+
+  z-index: 1;
+}
+.Post-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,80 @@
+.Main {
+  position: relative;
+  width: 100%;
+
+  height: 100%;
+  z-index: 1;
+}
+
+.Content {
+  width: 90%;
+  height: 100%;
+}
+
+.new-arrival {
+  width: 100%;
+}
+
+.content-img > img {
+  object-fit: cover;
+  width: 95%;
+  max-height: 813px;
+}
+.content-img > h4 {
+  padding: 2%;
+}
+body {
+  font-family: sans-serif;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(114, 109, 109);
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.upload-box {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Section-menu {
+}
+.Album {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+.Album-content {
+  height: auto;
+  display: flex;
+
+  justify-content: center;
+}
+.album-img > img {
+  object-fit: cover;
+  width: 100%;
+}

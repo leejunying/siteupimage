@@ -1,0 +1,67 @@
+.Header {
+  position: relative;
+  width: 80%;
+  height: 15vh;
+  margin-left: 10%;
+  padding-left: 15%;
+  z-index: 1;
+}
+
+.Fixed-header {
+  width: 80%;
+  height: 10vh;
+  margin-left: 10%;
+  padding-left: 15%;
+  position: fixed;
+  background-color: white;
+  z-index: 100;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.active {
+  color: rgb(167, 158, 158);
+}
+.unactive {
+  color: rgb(46, 41, 41);
+}
+
+.Menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Moblie-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: aliceblue;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .Menu {
+    display: none;
+  }
+  .Menu-item {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .Appbar {
+    display: none;
+  }
+}

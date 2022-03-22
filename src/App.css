@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  height: auto;
+  z-index: 1;
+  position: relative;
+}
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+.col {
+  flex-direction: column;
+}
+.row-reverse {
+  flex-direction: row-reverse;
+}
+.col-reverse {
+  flex-direction: column-reverse;
+}
+
+.jus-center {
+  justify-content: center;
+}
+.jus-start {
+  justify-content: flex-start;
+}
+.jus-end {
+  justify-content: flex-end;
+}
+
+.al-start {
+  align-items: flex-start;
+}
+.al-end {
+  align-items: flex-end;
+}
+
+.al-center {
+  align-items: center;
+}
+.al-stretch {
+  align-items: stretch;
+}
+.al-baseline {
+  align-items: baseline;
+}
+.sp-around {
+  justify-content: space-around;
+}
+.sp-between {
+  justify-content: space-between;
+}
+.sp-evenly {
+  justify-content: space-evenly;
+}
+
+.bor {
+  border: 1px solid black;
+}
+h5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px;
+}

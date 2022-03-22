@@ -1,0 +1,23 @@
+.Upload-cp {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.979);
+  z-index: 1000;
+}
+#btnUpload {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.file-upload-warp {
+  z-index: 1000;
+  position: relative;
+}
