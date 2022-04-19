@@ -4,7 +4,7 @@ const bodyaprser=require('body-parser')
 const app =express()
 const Controller=require('./controller')
  var corsOptions = {
-    origin: "https://vigorous-lichterman-fb8270.netlify.app", // Chang front end domain
+    origin: "http://localhost:3000", // Chang front end domain vigorous-lichterman-fb8270.netlify.app"
     optionsSuccessStatus: 200, 
     credentials: true,
 };
